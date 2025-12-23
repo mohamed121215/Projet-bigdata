@@ -1,0 +1,52 @@
+-- 1. D'abord, insertion dans clients2 (15 clients)
+INSERT INTO clients2 (cln, nom, coord) VALUES
+('C001', 'Alami Ahmed', 'Casablanca, Maroc'),
+('C002', 'Benali Fatima', 'Rabat, Maroc'),
+('C003', 'Chakir Hassan', 'Marrakech, Maroc'),
+('C004', 'Dialmi Karim', 'Fès, Maroc'),
+('C005', 'El Amrani Sara', 'Tanger, Maroc'),
+('C006', 'Fassi Omar', 'Meknès, Maroc'),
+('C007', 'Ghali Zineb', 'Agadir, Maroc'),
+('C008', 'Hamidi Youssef', 'Oujda, Maroc'),
+('C009', 'Idrissi Leila', 'Tétouan, Maroc'),
+('C010', 'Jamal Mehdi', 'Kenitra, Maroc'),
+('C011', 'Kadiri Nadia', 'Safi, Maroc'),
+('C012', 'Lamrani Rachid', 'El Jadida, Maroc'),
+('C013', 'Mansouri Amina', 'Beni Mellal, Maroc'),
+('C014', 'Naciri Khalid', 'Nador, Maroc'),
+('C015', 'Ouazzani Samira', 'Mohammedia, Maroc');
+
+-- 2. Ensuite, insertion dans produtt2 (15 produits)
+INSERT INTO produit2 (description, categorie, qte, prtx) VALUES
+('Laptop Dell XPS 13', 'Informatique', 15, 1299.99),
+('MacBook Pro 14"', 'Informatique', 10, 2499.00),
+('HP Pavilion 15', 'Informatique', 25, 799.99),
+('Souris Logitech MX Master', 'Accessoires', 50, 99.99),
+('Clavier mécanique Razer', 'Accessoires', 30, 149.99),
+('Écran Samsung 27"', 'Moniteurs', 20, 349.99),
+('Webcam Logitech C920', 'Accessoires', 40, 79.99),
+('Casque Sony WH-1000XM4', 'Audio', 35, 349.00),
+('Imprimante HP LaserJet', 'Impression', 12, 299.99),
+('Disque dur externe 2TB', 'Stockage', 60, 89.99),
+('SSD Samsung 1TB', 'Stockage', 45, 129.99),
+('Routeur TP-Link', 'Réseau', 28, 59.99),
+('Tablette iPad Air', 'Tablettes', 18, 699.00),
+('Smartphone Samsung Galaxy', 'Téléphones', 22, 899.99),
+('Chargeur Anker USB-C', 'Accessoires', 75, 29.99);
+
+-- 3. Enfin, insertion dans ventes2 (20 ventes)
+-- En supposant que les idc vont de 1 à 15 et les idp vont de 1 à 15
+INSERT INTO ventes2 (idc, idp, qte, prix) VALUES
+(1, 1, 2, 1299.99),
+(2, 4, 1, 99.99),
+(3, 5, 3, 149.99),
+(1, 7, 2, 79.99),
+(4, 3, 1, 799.99),
+(5, 8, 1, 349.00),
+(6, 2, 1, 2499.00),
+(2, 10, 3, 89.99),
+(7, 6, 2, 349.99),
+(8, 11, 4, 129.99),
+(3, 12, 1, 59.99),
+(9, 14, 1, 899.99),
+(10, 13, 2, 699);
