@@ -1,0 +1,58 @@
+-- 1. D'abord, insertion dans clients1 (15 clients)
+INSERT INTO clients1 (cln, nom, coord) VALUES
+('CL001', 'Benjelloun Salma', 'Casablanca, Maarif'),
+('CL002', 'Tazi Mehdi', 'Rabat, Agdal'),
+('CL003', 'Lahlou Imane', 'Marrakech, Gueliz'),
+('CL004', 'Sebti Karim', 'Fès, Ville Nouvelle'),
+('CL005', 'Amrani Dounia', 'Tanger, Malabata'),
+('CL006', 'Khattabi Youssef', 'Meknès, Hamria'),
+('CL007', 'Rais Hafsa', 'Agadir, Talborjt'),
+('CL008', 'Filali Omar', 'Oujda, Centre Ville'),
+('CL009', 'Bennani Meryem', 'Tétouan, Msallah'),
+('CL010', 'Ziani Adil', 'Kenitra, Hay Salam'),
+('CL011', 'Moussaoui Latifa', 'Safi, Quartier Industriel'),
+('CL012', 'Bennani Said', 'El Jadida, Centre'),
+('CL013', 'Elgharbi Nour', 'Beni Mellal, Hay Hassani'),
+('CL014', 'Chraibi Hicham', 'Nador, Marchica'),
+('CL015', 'Mansouri Siham', 'Mohammedia, Port');
+
+-- 2. Ensuite, insertion dans produtt1 (15 produits)
+INSERT INTO produtt1 (description, categorie, qte, prtx) VALUES
+('Asus ROG Laptop', 'Gaming', 8, 1899.99),
+('iPhone 15 Pro', 'Smartphones', 30, 1299.00),
+('Samsung Galaxy Tab S9', 'Tablettes', 18, 649.99),
+('Bose QuietComfort 45', 'Audio', 25, 379.99),
+('Logitech G Pro Keyboard', 'Gaming', 15, 189.99),
+('Dell UltraSharp 32"', 'Moniteurs', 12, 599.99),
+('Canon EOS R6', 'Photo', 5, 2799.00),
+('PlayStation 5', 'Consoles', 10, 549.99),
+('Apple Watch Series 9', 'Wearables', 40, 449.00),
+('GoPro Hero 12', 'Caméras', 20, 399.99),
+('Dyson V15', 'Électroménager', 14, 699.99),
+('Nintendo Switch OLED', 'Consoles', 22, 349.99),
+('Sony A7 IV', 'Photo', 6, 2499.00),
+('Microsoft Surface Pro 9', 'Tablettes', 16, 1199.99),
+('JBL Flip 6', 'Audio', 50, 129.99);
+
+-- 3. Enfin, insertion dans ventes1 (20 ventes)
+INSERT INTO ventes1 (idc, idp, qte, prtx) VALUES
+(1, 2, 1, 1299.00),
+(3, 8, 1, 549.99),
+(5, 4, 2, 379.99),
+(2, 1, 1, 1899.99),
+(7, 12, 1, 349.99),
+(4, 9, 1, 449.00),
+(9, 3, 2, 649.99),
+(6, 15, 3, 129.99),
+(11, 7, 1, 2799.00),
+(8, 5, 1, 189.99),
+(12, 11, 1, 699.99),
+(10, 6, 1, 599.99),
+(14, 10, 2, 399.99),
+(13, 14, 1, 1199.99),
+(15, 13, 1, 2499.00),
+(3, 2, 1, 1299.00),
+(1, 4, 1, 379.99),
+(5, 8, 2, 549.99),
+(7, 9, 1, 449.00),
+(2, 12, 2, 349.99);
